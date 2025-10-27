@@ -211,7 +211,6 @@ class AudioPlayer {
     }
 }
 
-// Данные для двух разных плееров
 const albumData1 = {
     title: "Кошки Бильярд",
     artist: "Жанулька",
@@ -256,8 +255,8 @@ const albumData2 = {
     ]
 };
 
-// Создание двух независимых плееров
 window.addEventListener('load', () => {
     new AudioPlayer('player1', 'player1', albumData1);
     new AudioPlayer('player2', 'player2', albumData2);
+
 });
